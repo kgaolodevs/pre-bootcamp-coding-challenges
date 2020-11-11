@@ -3,7 +3,7 @@
   (For example, 71 will become “1 hour, 11 minutes”; 133 will become “2 hours, 13 minutes”.)
 */
 
-var convertToTime = function (number) {
+function convertToTime(number) {
   var hours = 0;
   var minutes = 0;
 
@@ -35,4 +35,4 @@ var convertToTime = function (number) {
     default:
       return `${hours} hours, ${minutes} minutes`;
   }
-};
+}
