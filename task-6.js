@@ -4,7 +4,7 @@
   Write your own logic from scratch.
 */
 
-var findMax = function (num1, num2, num3) {
+function findMax(num1, num2, num3) {
   var nums = [num1, num2, num3];
   var maxNumber = 0;
 
@@ -15,13 +15,13 @@ var findMax = function (num1, num2, num3) {
   }
 
   return maxNumber;
-};
+}
 
 /*
   BONUS: How can you change the code so it can take in any number of numbers?
 */
 
-var getMaxNumber = function (...nums) {
+function getMaxNumber(...nums) {
   var maxNumber = 0;
 
   for (var i = 0; i < nums.length; i++) {
@@ -31,4 +31,4 @@ var getMaxNumber = function (...nums) {
   }
 
   return maxNumber;
-};
+}
