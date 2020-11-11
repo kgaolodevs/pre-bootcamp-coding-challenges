@@ -9,7 +9,6 @@ var sum = 0;
 
 for (let i = 0; i < range; i++) {
   if (i % 3 === 0 || i % 5 === 0) sum += i; // Finds multiples, and adds them to the total sum
-  console.log(i, sum);
 }
 
 console.log(sum);
