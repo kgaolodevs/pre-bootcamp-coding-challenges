@@ -4,7 +4,7 @@
   Otherwise return false.
 */
 
-var fn = function (a, b) {
-  if (a === 65 || b === 65 || a + b === 65) return true;
+function myFunction(num1, num2) {
+  if (num1 === 65 || num2 === 65 || num1 + num2 === 65) return true;
   return false;
-};
+}
