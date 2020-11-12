@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+:root {
+  --coal: #25242a;
+  --white: #fff;
+  --shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  color: var(--white);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.site {
+  height: 100%;
+  background: #414345;
+  background: -webkit-gradient(linear, right top, left bottom, from(#232526), to(#414345));
+  background: linear-gradient(to bottom left, #232526, #414345);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site .container {
+  height: 70%;
+  width: 45%;
+  background-color: var(--coal);
+  border-radius: 1.2rem;
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+}
+/*# sourceMappingURL=style.css.map */
