@@ -24,11 +24,11 @@ body {
 
 .site {
   height: 100%;
-  background: #00bf8f;
+  background: #d1913c;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#001510), to(#00bf8f));
-  background: linear-gradient(to bottom, #001510, #00bf8f);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd194), to(#d1913c));
+  background: linear-gradient(to bottom, #ffd194, #d1913c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ body {
 .site .container {
   height: 70%;
   width: 45%;
-  background-color: var(--coal);
+  background-color: #d1913c;
   border-radius: 1.2rem;
   -webkit-box-shadow: var(--shadow);
           box-shadow: var(--shadow);
